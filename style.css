@@ -1,0 +1,185 @@
+
+body {
+    direction: ltr;
+    unicode-bidi: normal;
+    color: #2b2b2b;
+    background-color: #fcf8e3 ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+}
+
+bdo {
+    unicode-bidi: bidi-override;
+}
+
+article {
+    display: block;
+}
+
+#d-1 > .new-article {
+    margin-bottom: 25px;
+}
+h2 + pre {
+    background-color: #fffdf0;
+}
+
+[cite] {
+    font-style: italic;
+}
+
+[lang|="uk"] {
+    letter-spacing: 0.5px;
+}
+
+[id^="new-"] {
+    border-left-width: thick;
+}
+
+.new-article:first-of-type {
+    border-top: 2px solid #e09123;
+}
+
+.new-article:last-of-type {
+    border-bottom: 3px solid #e09123;
+}
+
+.sidebar-nav p:first-child {
+    font-weight: bold;
+}
+
+.empty-badge:empty {
+    display: block;
+    height: 6px;
+    background-color: #e09123;
+    margin-top: 15px;
+}
+
+.sidebar-nav a:active {
+    color: red !important;
+}
+
+.order-input:in-range {
+    border: 2px solid green;
+}
+
+.order-input:invalid {
+    border: 2px solid red;
+}
+
+#new-1 pre::first-line {
+    font-weight: bold;
+    color: #444337;
+}
+
+.new-article h2::after {
+    content: " 📰";
+}
+
+.new-article {
+    background-color: #faf5d8;
+    position: relative;
+    z-index: auto;
+    float: left;
+    clear: left;
+    width: 95%;
+    max-width: 900px;
+    height: auto;
+    max-height: 800px;
+    overflow: visible;
+    visibility: visible;
+    padding: 10px;
+    margin-bottom: 3%;
+    margin-left: 15px;
+    
+    border-top-width: thin;
+    border-right-width: thick;
+    border-bottom-width: thin;
+    
+    border-left-color: #444337;
+    border-right-color: #e09123;
+    border-bottom-color: #444337;
+    
+    border-top-style: ridge;
+    border-left-style: inset;
+    border-bottom-style: double;
+    border-right-style: ridge;
+}
+
+.new-article pre {
+    line-height: 140%;
+    max-height: 50%;
+    outline: 1px solid #e09123;
+    outline-width: thin;
+    padding: 8px;
+    white-space: pre-wrap;
+}
+
+.sidebar-nav {
+    float: none;
+    clear: none;
+    position: static;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    max-height: 600px;
+    overflow: scroll;
+    line-height: normal;
+}
+
+
+sub {
+    vertical-align: bottom;
+}
+
+sup {
+    vertical-align: super;
+}
+
+.area-shape {
+    display: inline;
+    vertical-align: baseline;
+}
+
+.empty-badge {
+    vertical-align: text-top;
+}
+
+table tr {
+    display: table-row;
+}
+
+table thead {
+    display: table-header-group;
+}
+
+table colgroup {
+    display: table-column-group;
+}
+
+.status-box {
+    display: compact;
+}
+
+.hidden-demo {
+    visibility: hidden;
+    position: absolute;
+    clip: rect(0px, 50px, 50px, 0px);
+}
+
+
+.site-footer {
+    clear: both;
+    display: block;
+    margin-top: 50px;
+    padding: 90px 20px 20px;            
+    background-color: #f0e68c;
+    background-image: url('way.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;    
+    background-size: 90px;        
+    text-align: center;
+}
